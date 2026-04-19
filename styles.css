@@ -187,6 +187,62 @@ main {
     background-color: rgba(127, 82, 255, 0.05);
 }
 
+.projects {
+    padding: 4rem 0;
+}
+
+.section-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.project-card {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: 1.5rem;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.project-screenshot {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.project-info {
+    padding: 1.5rem;
+}
+
+.project-info h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.project-info p {
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+}
+
+.project-tags {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.tag {
+    background-color: rgba(127, 82, 255, 0.15);
+    color: var(--text-accent);
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
 .bento-card:nth-child(1) { grid-column: span 12; }
 .bento-card:nth-child(2) { grid-column: span 12; }
 .bento-card:nth-child(3) { grid-column: span 12; }
